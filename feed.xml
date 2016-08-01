@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NGS Audio Guide</title>
+    <description>A web-based audio guide theme for Jekyll.
+</description>
+    <link>http://tlgould.github.io/static-museum-audio-guide-NGS/</link>
+    <atom:link href="http://tlgould.github.io/static-museum-audio-guide-NGS/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Aug 2016 14:44:20 +0100</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2016 14:44:20 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+  </channel>
+</rss>
