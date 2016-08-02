@@ -18,6 +18,8 @@ $(document).ready(function() {
     arrows: true
   });
 
+
+
   // Slide down menu
   $(".site-header-menu-button").on("click", function(e) {
     e.preventDefault();

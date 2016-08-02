@@ -2,11 +2,18 @@
 
   <div class="site-header-wrapper">
     
-    
+    {% if (page.parent != null) %}
+    <a class="site-header-back-button" href="{{ site.baseurl }}{{page.parent}}">
+      <img src="{{ site.baseurl }}/assets/img/icons/button_back.png"/>
+    </a>
+    {% endif %}
+
+    {% if (page.parent == null) %}
     <a class="site-header-back-button" href="{{ site.baseurl }}/">
       <img src="{{ site.baseurl }}/assets/img/icons/button_back.png"/>
     </a>
-    
+    {% endif %}
+
     <a class="site-title" href="{{ site.baseurl }}/">
       <img src="{{ site.baseurl }}{{site.logo}}" alt="{{site.title}} logo" class="site-logo"/>
     </a>

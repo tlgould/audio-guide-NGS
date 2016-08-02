@@ -21,6 +21,9 @@ layout: master_episode
         {% for hero in page.hero_images %}
           <div class="post-hero-image">    
             <img src="{{ site.baseurl }}{{ site.episode_hero_path }}{{hero.path}}" alt="{{hero.alt_text}}"/>
+            <div id="blank">
+            <img src="{{ site.baseurl }}{{ site.episode_hero_path}}Transparent.gif">
+            </div>
           </div>
         {% endfor %}
       </div>
@@ -28,7 +31,17 @@ layout: master_episode
   {% endif %}
   <div class="post-content">
     {{ content }}
+    {% if (page.more_info != null) %}
+   
+  <div class="more-info-button">
+  <a href="{{ site.baseurl }}{{page.more_info_link}}">More on This Work</a>
   </div>
+  
+  {% endif %}
+  </div>
+
+  
+  
 
 </article>
 
