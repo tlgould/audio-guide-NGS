@@ -474,6 +474,22 @@
     }
     .more-info-button {
         background-color: $tile-bgcolor;
+        max-width: 450px;
+        margin: 0 auto 0.5em auto;
+        padding: 0.25em 0.5em;
+        border-radius: 2px;
+        a {
+        color: white;
+        }
+        
+    }
+
+    .go-back-button {
+        background-color: $tile-bgcolor;
+        max-width: 450px;
+        margin: 0 auto 0.5em auto;
+        padding: 0.25em 0.5em;
+        border-radius: 2px;
         a {
         color: white;
         }

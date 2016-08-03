@@ -31,13 +31,20 @@ layout: master_episode
   {% endif %}
   <div class="post-content">
     {{ content }}
-    {% if (page.more_info != null) %}
+    
+    {% if (page.is_more_info != null) %}
    
-  <div class="more-info-button">
+  <div class="go-back-button">
+  <a href="{{ site.baseurl }}{{page.parent}}/">Go Back</a>
+  </div>
+  {% elsif (page.more_info_link != null) %}
+   <div class="more-info-button">
   <a href="{{ site.baseurl }}{{page.more_info_link}}">More on This Work</a>
   </div>
   
+  {% else %}
   {% endif %}
+
   </div>
 
   
