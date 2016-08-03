@@ -519,6 +519,9 @@ pre {
     border-radius: 2px; }
     .post-content .more-info-button a {
       color: white; }
+    .post-content .more-info-button img {
+      max-width: 5%;
+      height: auto; }
   .post-content .go-back-button {
     background-color: #258DB0;
     max-width: 450px;
@@ -549,11 +552,6 @@ Hero images on audio guide stop pages
     height: auto;
     display: inline-block;
     z-index: 1; }
-  .post-hero-image blank {
-    width: 100%;
-    max-width: 512px;
-    height: auto;
-    z-index: 2; }
 
 .slick-post-hero-image button.slick-arrow {
   opacity: 0.3; }
