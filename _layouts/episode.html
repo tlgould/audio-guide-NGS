@@ -21,9 +21,7 @@ layout: master_episode
         {% for hero in page.hero_images %}
           <div class="post-hero-image">    
             <img src="{{ site.baseurl }}{{ site.episode_hero_path }}{{hero.path}}" alt="{{hero.alt_text}}"/>
-            <div id="blank">
-            <img src="{{ site.baseurl }}{{ site.episode_hero_path}}Transparent.gif">
-            </div>
+            
           </div>
         {% endfor %}
       </div>
@@ -43,6 +41,12 @@ layout: master_episode
   </div>
   
   {% else %}
+  {% endif %}
+
+  {% if (page.collection_page != null) %}
+<div class="more-info-button">
+<a href="https://art.nationalgalleries.org/art-and-artists/{{page.collection_page}}" target="_blank">View on website <img src="{{ site.baseurl }}{{site.new_tab_icon}}"></a>
+</div>
   {% endif %}
 
   </div>

@@ -16,11 +16,12 @@ episode_hero_path: "/assets/img/stops/"
 url: "http://tlgould.github.io" # the base hostname & protocol for your site
 logo: "/assets/img/logo/audio-guide.png"
 twitter_username: NatGalleriesSco
-github_username:  acmilabs
+github_username:  tlgould
 menu_heading: "Select another stop"
 index_page_text: "Select an audio guide stop to begin."
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
+new_tab_icon: "/assets/img/icons/new_tab_light.png"
 
 # Build settings
 markdown: kramdown
