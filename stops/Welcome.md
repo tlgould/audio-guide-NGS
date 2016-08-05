@@ -8,12 +8,10 @@ page_rank: 1
 stop_id: 1
 is_more_info:
 more_info_link: /stops/1a/
-audio_file: NASA_main_APU_Shutdown.mp3
+audio_file: introSample.mp3
 hero_images:
  - path: GMA.jpg
    alt_text: First example photo for stop 1
- - path: 01-introduction-02.jpg
-   alt_text: Second example photo for stop 1
 ---
 
 Welcome to this display of 20th Century Masterpieces of Scottish and European Art, from the collections of the National Galleries of Scotland.

@@ -2,15 +2,15 @@
 layout: episode
 permalink: /stops/3a/
 type: 
-parent: /stops/3a/
+parent: /stops/3/
 section_title: Interieur mit nackter Liegender und Mann 
-title: Ernst Ludwig Kirchner, (1924)
+title: Interieur mit nackter Liegender und Mann (1924)
 page_rank: 3.1
 stop_id:
 is_more_info: YES
 collection_page: 92483
 more_info_link:
-audio_file:
+audio_file: InteriorWithNudeSample.mp3
 hero_images:
  - path: 134297.jpg
 ---
