@@ -521,6 +521,11 @@ Hero images on audio guide stop pages
     //background-color: $background-darker;
     text-align: center;
 
+    video{
+        width: 100%;
+
+        max-width: 512px;
+    }
     img {
         width: 100%;
 

@@ -15,6 +15,18 @@ layout: master_episode
       {% endif %}
     </div>
   </header>
+  {%if page.video_file != null %}
+  <div class="slick-container post-hero-image-container">
+      <div class="slick-post-hero-image">
+      <div class="post-hero-image">   
+<video height="240" width="360" controls>
+  <source id="episode-source" src="{{ site.baseurl }}{{ site.audio_path }}{{ page.video_file }}" type="video/mp4">
+        Your browser does not support the audio element.
+</video>
+</div>
+</div>
+</div>
+  {% endif %}
   {% if page.hero_images != null %}
     <div class="slick-container post-hero-image-container">
       <div class="slick-post-hero-image">
