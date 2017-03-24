@@ -85,18 +85,18 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #258DB0;
+  color: #967758;
   text-decoration: none;
   transition: 0.2s; }
   a:hover {
-    color: #88cee6;
+    color: #d3c4b4;
     text-decoration: none; }
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: #5ebddd; }
+  color: #c0aa94; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -106,7 +106,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #b2e0ef;
+  border: 1px solid #e6ddd4;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -155,7 +155,7 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #258DB0; }
+    fill: #967758; }
 
 /********************
  Welcome Pages
@@ -179,7 +179,7 @@ pre {
   text-align: center; }
 
 .welcome .slick .prompt {
-  background-color: #258DB0;
+  background-color: #967758;
   color: white;
   max-width: 450px;
   margin: 0 auto 0.5em auto;
@@ -187,7 +187,7 @@ pre {
   border-radius: 2px;
   transition: 0.3s; }
   .welcome .slick .prompt:hover, .welcome .slick .prompt:active, .welcome .slick .prompt:focus {
-    background-color: #34acd4; }
+    background-color: #ad9174; }
 
 .button-forward {
   width: 32px;
@@ -214,7 +214,7 @@ pre {
 
 .styled-button {
   border: none;
-  background: #258DB0;
+  background: #967758;
   border-radius: 5px;
   color: #fafafa;
   padding: 0.5em 1em;
@@ -224,7 +224,7 @@ pre {
   -webkit-appearance: none;
   transition: 0.3s; }
   .styled-button:hover, .styled-button:active, .styled-button:focus {
-    background-color: #34acd4; }
+    background-color: #ad9174; }
 
 .prompt-big .styled-button {
   width: 96px;
@@ -238,7 +238,7 @@ pre {
   opacity: 0.5 !important; }
 
 .slick-dots li.slick-active button:before {
-  color: #258DB0 !important;
+  color: #967758 !important;
   opacity: 1 !important; }
 
 .skip-text {
@@ -289,7 +289,7 @@ pre {
 
 .site-header {
   height: 96px;
-  background-color: #258DB0;
+  background-color: #967758;
   text-align: center; }
 
 .site-header a {
@@ -310,7 +310,7 @@ pre {
     padding: 16px 16px;
     transition: 0.3s; }
     .site-header-back-button img:hover, .site-header-back-button img:active, .site-header-back-button img:focus {
-      background-color: #34acd4; }
+      background-color: #ad9174; }
 
 .site-header-menu-button {
   /*   transform: rotate(180deg); */
@@ -321,7 +321,7 @@ pre {
     padding: 16px 16px;
     transition: 0.3s; }
     .site-header-menu-button img:hover, .site-header-menu-button img:active, .site-header-menu-button img:focus {
-      background-color: #34acd4; }
+      background-color: #ad9174; }
 
 .site-title img {
   width: auto;
@@ -400,7 +400,7 @@ pre {
     vertical-align: center; }
     .post-list li a {
       margin: 5px;
-      background-color: #258DB0;
+      background-color: #967758;
       background-size: 100%;
       color: #fafafa;
       width: 64px;
@@ -411,7 +411,7 @@ pre {
       position: relative;
       padding: 0; }
       .post-list li a:hover, .post-list li a:active, .post-list li a:focus {
-        background-color: #34acd4; }
+        background-color: #ad9174; }
       @media screen and (max-width: 640px) {
         .post-list li a {
           width: 56px;
@@ -419,7 +419,7 @@ pre {
 
 .post-meta {
   font-size: 17.5px;
-  color: #258DB0; }
+  color: #967758; }
 
 .post-link {
   display: block;
@@ -471,14 +471,14 @@ pre {
       margin-top: 32px; }
   .post-title-episode .post-header-section-title {
     display: inline-block;
-    color: #dcf1f8;
+    color: #f9f7f4;
     font-size: 26px;
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 0.25em;
     text-align: center; }
   .post-title-episode .post-header-title {
-    color: #34acd4;
+    color: #ad9174;
     font-size: 20px;
     line-height: 26px;
     margin-top: 0;
@@ -497,7 +497,7 @@ pre {
         font-size: 22px; } }
   .post-content h3 {
     font-size: 20px;
-    color: #34acd4; }
+    color: #ad9174; }
   .post-content h4 {
     font-size: 18px; }
     @media screen and (max-width: 800px) {
@@ -512,7 +512,7 @@ pre {
     .post-content .hidden-mobile {
       display: none; } }
   .post-content .more-info-button {
-    background-color: #258DB0;
+    background-color: #967758;
     max-width: 450px;
     margin: 0 auto 0.5em auto;
     padding: 0.25em 0.5em;
@@ -523,7 +523,7 @@ pre {
       max-width: 5%;
       height: auto; }
   .post-content .go-back-button {
-    background-color: #258DB0;
+    background-color: #967758;
     max-width: 450px;
     margin: 0 auto 0.5em auto;
     padding: 0.25em 0.5em;
@@ -546,6 +546,9 @@ Hero images on audio guide stop pages
   padding: 0 0;
   margin: 0 auto 0 auto;
   text-align: center; }
+  .post-hero-image video {
+    width: 100%;
+    max-width: 512px; }
   .post-hero-image img {
     width: 100%;
     max-width: 512px;
@@ -604,12 +607,12 @@ Audio Player Styling
     float: right;
     line-height: 48px;
     vertical-align: top;
-    color: #258DB0; }
+    color: #967758; }
   .player-buttons .player-buttons-next-number {
     float: left;
     line-height: 48px;
     vertical-align: top;
-    color: #258DB0; }
+    color: #967758; }
   .player-buttons .player-buttons-prev {
     display: inline-block;
     text-align: left;
@@ -647,12 +650,12 @@ Audio Player Styling
   height: 10px;
   margin: 0 0 0 0;
   border-radius: 3px;
-  background-color: #217c9b; }
+  background-color: #866a4f; }
 
 .jp-play-bar {
   height: 10px;
   border-radius: 3px;
-  background-color: #34acd4; }
+  background-color: #ad9174; }
 
 .jp-controls button.jp-play {
   background: none;
@@ -663,7 +666,7 @@ Audio Player Styling
   border: 2px solid #aaaaaa !important;
   border-radius: 32px !important; }
   .jp-controls button.jp-play:hover {
-    border-color: #258DB0 !important; }
+    border-color: #967758 !important; }
 
 .jp-state-playing button.jp-play {
   background: url("../img/icons/button_pause.svg");
