@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: NGS Audio Guide
+title: "Hill & Adamson: A Perfect Chemistry"
 email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
   A web-based audio guide theme for Jekyll.
-baseurl: "/static-museum-audio-guide-NGS" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "http://tlgould.github.io" # the base hostname & protocol for your site
